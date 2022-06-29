@@ -4,7 +4,7 @@
 
 module.exports = {
 	name: "friendcode",
-	alias: "fc",
+	aliases: "fc",
 	// Refer to typings.d.ts for available properties.
 
 	execute(message, args) {
