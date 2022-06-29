@@ -10,13 +10,13 @@
  */
 module.exports = {
 	data: {
-		name: "sample",
+		name: "Beautiful Context Menu",
 		type: 2, // 2 is for user context menus
 	},
 
 	async execute(interaction) {
 		await interaction.reply({
-			content: "I am a sample user context menu.",
+			content: "I'm Roll. Did you know I'm 4\'9\"?",
 		});
 		return;
 	},
