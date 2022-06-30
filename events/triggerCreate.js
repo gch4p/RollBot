@@ -40,6 +40,7 @@ module.exports = {
 
 				if (message.content.includes(name)) {
 					try {
+						console.log("detected trigger: `${message}`");
 						trigger.execute(message, args);
 					} catch (error) {
 						// If checks fail, reply back!
