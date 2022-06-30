@@ -1,3 +1,6 @@
+/**
+ * @type {import('../../typings').LegacyCommand}
+*/
 module.exports = {
 	name: "randomweapon",
 	aliases: ["weapon", "rw", "weaponrandom","weaponrand"],

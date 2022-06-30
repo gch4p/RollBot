@@ -1,3 +1,6 @@
+/**
+ * @type {import('../../typings').LegacyCommand}
+ */
 
 module.exports = {
 	name: "roll",
